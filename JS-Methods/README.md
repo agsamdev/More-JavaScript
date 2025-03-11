@@ -21,7 +21,9 @@ const items = [
     { name: 'Keyboard', price: 25 }
 ];
 
-const filteredItems = items.filter(({ price }) => {  // Destructure price here
+const filteredItems = items.filter(({ price }) => {
+
+// Destructure price here
     return price <= 100; 
 });
 
