@@ -28,4 +28,14 @@ const filteredItems = items.filter(({ price }) => {
 });
 
 console.log(filteredItems);
+
+/*
+Result:
+[
+  { name: 'Bike', price: 100 },
+  { name: 'Album', price: 10 },
+  { name: 'Book', price: 5 },
+  { name: 'Keyboard', price: 25 }
+]
+*/
 ```
